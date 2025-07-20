@@ -13,6 +13,7 @@ namespace Dental_Management
 {
     internal static class Program
     {
+        [STAThread]
         private static void Main()
         {
             if (Environment.OSVersion.Version.Major >= 6)
